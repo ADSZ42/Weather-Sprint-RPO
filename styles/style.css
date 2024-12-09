@@ -1,0 +1,51 @@
+body{
+    background-color:#2C2D65 ;
+    color: white;
+    display: flex;
+    font-family: BurbankC;
+}
+
+@font-face {
+    font-family: 'BurbankC';
+    src: url('../Assets/Fonts/BurbankBigCondensed-Black.otf') format('woff2'),
+         url('../Assets/Fonts/BurbankBigCondensed-Black.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/*.containerbasic{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}*/
+
+.weather-display {
+  background-color: #3c67a3;
+  border-radius: 10px;
+}
+  
+.weather-icon {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+}
+  
+.favorites-list .list-group-item {
+  background-color: #3c67a3;
+  color: white;
+  border: none;
+}
+  
+.forecast-box {
+  background-color: #3c67a3;
+  border-radius: 10px;
+  padding: 15px;
+}
+  
+.forecast-icon {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+}  
