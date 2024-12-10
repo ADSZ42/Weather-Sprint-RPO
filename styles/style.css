@@ -13,14 +13,8 @@ body{
     font-style: normal;
   }
 
-/*.containerbasic{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}*/
-
 .weather-display {
-  background-color: #3c67a3;
+  background-color:#0D55A8;
   border-radius: 10px;
 }
   
@@ -32,13 +26,28 @@ body{
 }
   
 .favorites-list .list-group-item {
-  background-color: #3c67a3;
+  background-color: #0D55A8;
   color: white;
   border: none;
 }
+
+.favorites-list{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
   
 .forecast-box {
-  background-color: #3c67a3;
+  background-color: #0D55A8;
+  border-radius: 10px;
+}
+.forecast-box-overlay {
+  background-image: linear-gradient(to bottom, #BEDCFF , #86BDFD,#2E5F97);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
   padding: 15px;
 }
@@ -49,3 +58,23 @@ body{
   width: 50px;
   height: 50px;
 }  
+
+.g-p{
+  gap: 10px;
+  justify-content:space-evenly;
+}
+
+.container-fluid{
+  margin-right:  170px !important;
+  margin-left: 170px !important;
+}
+
+.star-size{
+  width:50px;
+  height: auto;
+}
+
+.bg-fv{
+  background-color: #2E5F97;
+  border-radius: 10px;
+}
