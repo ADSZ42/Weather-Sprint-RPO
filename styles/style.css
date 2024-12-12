@@ -1,7 +1,7 @@
 body{
     background-color:#2C2D65 ;
     color: white;
-    display: flex;
+    display: flex !important;
     font-family: BurbankC;
 }
 
@@ -18,17 +18,14 @@ body{
   border-radius: 10px;
 }
   
-.weather-icon {
-  margin-right: auto;
-  margin-left: auto;
-  width: 50px;
-  height: 50px;
-}
-  
 .favorites-list .list-group-item {
   background-color: #0D55A8;
   color: white;
   border: none;
+}
+
+.D-F{
+  display: flex !important;
 }
 
 .favorites-list{
@@ -77,4 +74,17 @@ body{
 .bg-fv{
   background-color: #2E5F97;
   border-radius: 10px;
+}
+
+.img-Main-Card{
+  width:10%;
+  height :10%;
+}
+
+.todayWeathIcon{
+  width: 10%;
+}
+
+.smaller-W-Icons{
+  width:8%
 }
